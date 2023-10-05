@@ -1,0 +1,39 @@
+h1{
+    font-size: 24px;
+    color: rgb(222, 222, 235);
+    font-weight: bold;
+    font-style: oblique;
+}
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+h3{
+    font-size: 16;
+    color: teal;
+    font-weight: bold;
+}
+p{
+    color: #4D4D4D;
+}
+header{
+    font-weight: bold;
+    font-size: x-large;
+    width: 100%;
+    background-image: url(controller.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33.33vh;
+    border: solid;
+    
+}
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+img{
+    width: 50vw;
+    height: auto;
+}
