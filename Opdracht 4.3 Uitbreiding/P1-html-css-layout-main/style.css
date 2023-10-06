@@ -8,9 +8,53 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background: url(background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: calc(100vh - Npx);
+  background-color: black;
+  position: relative;
+  min-height: 100vh;
 }
-
-nav {
+h1, h2, h3, h4, h5, h6
+{
+  font-weight: bold;
+  text-align: center;
+}
+footer
+{
+  background-color: #00a8c7;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+footer p
+{
+  padding: 20px;
+  color: #00a8c7;
+}
+.title
+{
+  float: left;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 40px;
+}
+.text
+{
+  float: left;
+  font-size: 30px;
+  color: #fff;
+}
+.image
+{
+  float: left;
+  width: 30%;
+}
+nav
+{
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -20,20 +64,63 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
-nav ul {
+nav ul
+{
   display: flex;
   align-items: center;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-nav li {
+nav li
+{
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
+  display: inline-block;
 }
-nav a {
+nav a
+{
   color: white;
   text-decoration: none;
 }
-nav img {
+nav img
+{
   width: 5vw;
 }
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content
+{
+  position: absolute;
+  background-color: #00a8c7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border-bottom: 1px dotted #E9E9E9;
+}
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
+.dropdown-content a
+{
+  display: block;
+  color: white;
+  padding: 8px;
+}
+.dropdown-content a:hover
+{
+  background: #E9E9E9;
+}
+.dropdown:hover a
+{
+  background-color: white;
+  color: #00a8c7;
+}
+

@@ -1,0 +1,27 @@
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.box_size
+{
+    width: 200px;
+    height: 200px;
+}
+.blue
+{
+    background-color: blue;
+}
+.black
+{
+    background-color: black;
+}
+.red
+{
+    background-color: red;
+}
+.green
+{
+    background-color: green;
+}
